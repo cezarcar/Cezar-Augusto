@@ -1,0 +1,37 @@
+/ Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/08/2023
+Var
+nome: caracter
+sexo: caracter
+tempodecasada: inteiro
+estadocivil:caracter
+   // Seção de Declarações das variáveis
+
+   Inicio
+   // Dados do usuário
+   escreva("Qual seu nome?")
+   leia(nome)
+   limpatela
+   escreva("Seu sexo é F ou M?")
+   leia(sexo)
+   limpatela
+   escreva("qual seu estado civil?")
+   leia(estadocivil)
+   limpatela
+   //
+   se (sexo = "F") e (estadocivil = "casada") entao
+      escreval("Quanto tempo de casada?")
+      leia(tempodecasada)
+   fimse
+   //
+   escreval( "Qual seu nome?",nome)
+   escreval("Qual seu estado civil",estadocivil)
+   escreval("Qual seu sexo",sexo)
+   escreval(" Quanto tempo?",tempodecasada)
+
+
+
+Fimalgoritmo

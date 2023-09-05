@@ -1,0 +1,44 @@
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+primeirovalor: inteiro
+segundovalor: inteiro
+multiplicacao: inteiro
+divisao: real
+soma: inteiro
+subtracao: inteiro
+resultado:real
+opcao:caracter
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Digite um valor:")
+leia(primeirovalor)
+limpatela
+
+escreva(" Digite outro valor:")
+leia(segundovalor)
+limpatela
+
+escreva("Qual operação deseja usar?")
+leia(opcao)
+//
+se(opcao = multiplicacao)      entao
+resultado<- (primeirovalor*segundovalor)
+//
+ resultado<- (primeirovalor+segundovalor)
+ //
+ resultado<- (primeirovalor-segundovalor)
+ //
+ resultado<- (primeirovalor/segundovalor)
+ 
+ 
+ escreval(" Resultado:",resultado)
+
+
+
+fimse
+fimalgoritmo
